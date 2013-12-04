@@ -1,0 +1,32 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+<<<<<<< HEAD
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\levelHolderScript.cs">
+    <Files>
+      <File FileName="Assets\Scripts\SpellActivationScripts\BarrierActivationScript.cs" Line="8" Column="26" />
+      <File FileName="Assets\Scripts\SpellActivationScripts\ChargeActivationScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SpellBar.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Dungeon Generation\DunGen.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Title\cameraScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Title\blackFaderScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\levelHolderScript.cs" Line="1" Column="1" />
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Title\castleScript.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Spells\FrostWall.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Title\startButtonScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Title\wizardButtonScript.cs" Line="7" Column="20" />
+      <File FileName="Assets\Scripts\Title\archerButtonScript.cs" Line="77" Column="14" />
+      <File FileName="Assets\Scripts\Title\warriorButtonScript.cs" Line="53" Column="19" />
+      <File FileName="Assets\Scripts\Title\cameraScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\statsTextScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Title\classTextScript.cs" Line="68" Column="16" />
+      <File FileName="Assets\Scripts\Title\castleScript.cs" Line="27" Column="2" />
+>>>>>>> parent of f389de1... CasterGhost enemy added
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

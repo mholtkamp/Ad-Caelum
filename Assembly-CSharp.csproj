@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{34AC0B2E-4F0E-0CDB-DACB-AA7496708B58}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_0;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\DrawBack.cs" />
+     <Compile Include="Assets\Scripts\Dungeon Generation\DunGen.cs" />
+     <Compile Include="Assets\Scripts\Dungeon Generation\DunGenCam.cs" />
+     <Compile Include="Assets\Scripts\Dungeon Generation\DunGenNEW.cs" />
+     <Compile Include="Assets\Scripts\Dungeon Generation\HUDFPS.cs" />
+     <Compile Include="Assets\Scripts\Dungeon Generation\Room.cs" />
+     <Compile Include="Assets\Scripts\EnemyScripts\BasicMovementScript.cs" />
+     <Compile Include="Assets\Scripts\EnemyScripts\Beamo\beamoScript.cs" />
+     <Compile Include="Assets\Scripts\EnemyScripts\Beamo\spikeballScript.cs" />
+     <Compile Include="Assets\Scripts\EnemyScripts\Torpedo\torpedoMovement.cs" />
+     <Compile Include="Assets\Scripts\EnemyScripts\TridentGhost\TridentGhostController.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Scripts\ItemInstantiationScripts\GoldHerbActivationScript.cs" />
+     <Compile Include="Assets\Scripts\ItemInstantiationScripts\GoldHerbModelScript.cs" />
+     <Compile Include="Assets\Scripts\ItemInstantiationScripts\HealthPotionActivationScript.cs" />
+     <Compile Include="Assets\Scripts\ItemInstantiationScripts\HealthPotionModelScript.cs" />
+     <Compile Include="Assets\Scripts\ItemList.cs" />
+     <Compile Include="Assets\Scripts\ScrollScripts\scrollBlackActivation.cs" />
+     <Compile Include="Assets\Scripts\ScrollScripts\scrollBlackModelScript.cs" />
+     <Compile Include="Assets\Scripts\ScrollScripts\scrollBlueActivationScript.cs" />
+     <Compile Include="Assets\Scripts\ScrollScripts\scrollBlueModelScript.cs" />
+     <Compile Include="Assets\Scripts\ScrollScripts\scrollGreenActivationScript.cs" />
+     <Compile Include="Assets\Scripts\ScrollScripts\scrollGreenModelScript.cs" />
+     <Compile Include="Assets\Scripts\ScrollScripts\scrollRedActivationScript.cs" />
+     <Compile Include="Assets\Scripts\ScrollScripts\scrollRedModelScript.cs" />
+     <Compile Include="Assets\Scripts\SpellActivationScripts\BarrierActivationScript.cs" />
+     <Compile Include="Assets\Scripts\SpellActivationScripts\ChargeActivationScript.cs" />
+     <Compile Include="Assets\Scripts\SpellActivationScripts\DetonateActivationScript.cs" />
+     <Compile Include="Assets\Scripts\SpellActivationScripts\FamiliarActivationScript.cs" />
+     <Compile Include="Assets\Scripts\SpellActivationScripts\FireBallActivationScript.cs" />
+     <Compile Include="Assets\Scripts\SpellActivationScripts\FrostWallActivationScript.cs" />
+     <Compile Include="Assets\Scripts\SpellActivationScripts\IceBallActivationScript.cs" />
+     <Compile Include="Assets\Scripts\SpellActivationScripts\SpeedActivationScript.cs" />
+     <Compile Include="Assets\Scripts\SpellActivationScripts\SwordsActivationScript.cs" />
+     <Compile Include="Assets\Scripts\SpellBar.cs" />
+     <Compile Include="Assets\Scripts\Spells\Barrier.cs" />
+     <Compile Include="Assets\Scripts\Spells\Charge.cs" />
+     <Compile Include="Assets\Scripts\Spells\Detonate.cs" />
+     <Compile Include="Assets\Scripts\Spells\Familiar.cs" />
+     <Compile Include="Assets\Scripts\Spells\FireBall.cs" />
+     <Compile Include="Assets\Scripts\Spells\FrostWall.cs" />
+     <Compile Include="Assets\Scripts\Spells\IceBall.cs" />
+     <Compile Include="Assets\Scripts\Spells\Speed.cs" />
+     <Compile Include="Assets\Scripts\Spells\Spell.cs" />
+     <Compile Include="Assets\Scripts\Spells\Swords.cs" />
+     <Compile Include="Assets\Scripts\Stats.cs" />
+     <Compile Include="Assets\Scripts\Title\archerButtonScript.cs" />
+     <Compile Include="Assets\Scripts\Title\cameraScript.cs" />
+     <Compile Include="Assets\Scripts\Title\castleScript.cs" />
+     <Compile Include="Assets\Scripts\Title\classTextScript.cs" />
+     <Compile Include="Assets\Scripts\Title\exitButtonScript.cs" />
+     <Compile Include="Assets\Scripts\Title\hoverScript.cs" />
+     <Compile Include="Assets\Scripts\Title\selectedClassScript.cs" />
+     <Compile Include="Assets\Scripts\Title\startButtonScript.cs" />
+     <Compile Include="Assets\Scripts\Title\titleScript.cs" />
+     <Compile Include="Assets\Scripts\Title\warriorButtonScript.cs" />
+     <Compile Include="Assets\Scripts\Title\wizardButtonScript.cs" />
+     <Compile Include="Assets\Scripts\archerController.cs" />
+     <Compile Include="Assets\Scripts\archerStatsScript.cs" />
+     <Compile Include="Assets\Scripts\arrowScript.cs" />
+     <Compile Include="Assets\Scripts\camController.cs" />
+     <Compile Include="Assets\Scripts\charController.cs" />
+     <Compile Include="Assets\Scripts\chestScript.cs" />
+     <Compile Include="Assets\Scripts\conjBar.cs" />
+     <Compile Include="Assets\Scripts\indSwordScript.cs" />
+     <Compile Include="Assets\Scripts\itemWheel.cs" />
+     <Compile Include="Assets\Scripts\levelHolderScript.cs" />
+     <Compile Include="Assets\Scripts\lookAtMouse.cs" />
+     <Compile Include="Assets\Scripts\oldCharController.cs" />
+     <Compile Include="Assets\Scripts\spellBarScript.cs" />
+     <Compile Include="Assets\Scripts\spellPosScript.cs" />
+     <Compile Include="Assets\Scripts\spinScript.cs" />
+     <Compile Include="Assets\Scripts\staircaseScript.cs" />
+     <Compile Include="Assets\Scripts\statsScript1.cs" />
+     <Compile Include="Assets\Scripts\statsTextScript.cs" />
+     <Compile Include="Assets\Scripts\swordsSpinScipt.cs" />
+     <Compile Include="Assets\Scripts\wizardController.cs" />
+     <Compile Include="Assets\Scripts\wizardStatsScript.cs" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\Standard Assets\Tessellation Shaders\BumpedSpecularDisplacement.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{E4FA1B2F-23C8-B2E0-9F57-D0CD8F372AD4}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{016C3F02-3A2B-F3EC-C2F5-8A3EFAC3E38F}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
